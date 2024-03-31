@@ -1,6 +1,6 @@
-package com.example.demo.datasource.entity;
+package com.anotacao.anotacao.datasource.entity;
 
-import com.example.demo.controller.dto.request.LoginRequest;
+import com.anotacao.anotacao.controller.dto.request.LoginRequest;
 import jakarta.persistence.*;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;

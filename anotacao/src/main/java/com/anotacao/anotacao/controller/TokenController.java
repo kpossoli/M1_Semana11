@@ -1,10 +1,10 @@
-package com.example.demo.controller;
+package com.anotacao.anotacao.controller;
 
-import com.example.demo.controller.dto.request.LoginRequest;
-import com.example.demo.controller.dto.response.LoginResponse;
-import com.example.demo.datasource.entity.PerfilEntity;
-import com.example.demo.datasource.entity.UsuarioEntity;
-import com.example.demo.datasource.repository.UsuarioRepository;
+import com.anotacao.anotacao.controller.dto.request.LoginRequest;
+import com.anotacao.anotacao.controller.dto.response.LoginResponse;
+import com.anotacao.anotacao.datasource.entity.PerfilEntity;
+import com.anotacao.anotacao.datasource.entity.UsuarioEntity;
+import com.anotacao.anotacao.datasource.repository.UsuarioRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;

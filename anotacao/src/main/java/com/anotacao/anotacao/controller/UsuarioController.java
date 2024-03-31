@@ -1,10 +1,9 @@
-package com.example.demo.controller;
+package com.anotacao.anotacao.controller;
 
-import com.example.demo.controller.dto.request.InserirUsuarioRequest;
-import com.example.demo.datasource.entity.PerfilEntity;
-import com.example.demo.datasource.entity.UsuarioEntity;
-import com.example.demo.datasource.repository.PerfilRepository;
-import com.example.demo.datasource.repository.UsuarioRepository;
+import com.anotacao.anotacao.controller.dto.request.InserirUsuarioRequest;
+import com.anotacao.anotacao.datasource.entity.UsuarioEntity;
+import com.anotacao.anotacao.datasource.repository.PerfilRepository;
+import com.anotacao.anotacao.datasource.repository.UsuarioRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,8 +11,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.Set;
 
 @RestController
 @RequiredArgsConstructor

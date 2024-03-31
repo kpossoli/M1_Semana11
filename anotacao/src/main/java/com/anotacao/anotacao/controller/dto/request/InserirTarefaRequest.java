@@ -1,4 +1,4 @@
-package com.example.demo.controller.dto.request;
+package com.anotacao.anotacao.controller.dto.request;
 
 public record InserirTarefaRequest(
         String titulo,

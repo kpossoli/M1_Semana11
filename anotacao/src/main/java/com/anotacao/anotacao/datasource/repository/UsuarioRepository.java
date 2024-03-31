@@ -1,6 +1,6 @@
-package com.example.demo.datasource.repository;
+package com.anotacao.anotacao.datasource.repository;
 
-import com.example.demo.datasource.entity.UsuarioEntity;
+import com.anotacao.anotacao.datasource.entity.UsuarioEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

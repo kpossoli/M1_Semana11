@@ -1,4 +1,4 @@
-package com.example.demo.controller.dto.response;
+package com.anotacao.anotacao.controller.dto.response;
 
 public record TarefaResponse(Long id,
                              String titulo,

@@ -1,4 +1,4 @@
-package com.example.demo.datasource.entity;
+package com.anotacao.anotacao.datasource.entity;
 
 
 import jakarta.persistence.*;
