@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f2a04c4-1baa-479f-859c-639e0f783918" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/controller/AutenticacaoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/controller/CadernoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/controller/NotaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/controller/TesteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/exceptions/Error/BadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/exceptions/Error/ForbiddenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/exceptions/Error/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/exceptions/ErrorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/service/CadernoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/service/CadernoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/service/NotaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/service/NotaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/service/UsuarioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/service/UsuarioServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/utils/TokenUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/controller/TarefaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/controller/TokenController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/controller/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/controller/dto/request/InserirTarefaRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/controller/dto/request/InserirUsuarioRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/controller/dto/request/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/controller/dto/response/LoginResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/controller/dto/response/TarefaResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/datasource/entity/PerfilEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/datasource/entity/CadernoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/datasource/entity/TarefaEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/datasource/entity/NotaEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/datasource/entity/UsuarioEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/datasource/entity/UsuarioEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/datasource/repository/PerfilRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/datasource/repository/CadernoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/datasource/repository/TarefaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/datasource/repository/NotaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/datasource/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/datasource/repository/UsuarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/infra/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/anotacao/src/main/java/com/anotacao/anotacao/infra/SegurancaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anotacao/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/anotacao/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2eTK66p46wbHDTUBIz0lNmBYfca" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/Documents/GitHub/Exercicio_Semana11/anotacao",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-c0c073db" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f2a04c4-1baa-479f-859c-639e0f783918" name="Changes" comment="" />
+      <created>1711922949963</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711922949963</updated>
+      <workItem from="1711922950979" duration="63000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
